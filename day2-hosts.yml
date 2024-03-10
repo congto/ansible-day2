@@ -1,6 +1,6 @@
 ---
 - name: Cac cau hinh hoan thien may chu
-  hosts: 10.10.100.177
+  hosts: all
   become: yes
   become_method: sudo
   tasks:
